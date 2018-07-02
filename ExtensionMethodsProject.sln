@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodsProject", "ExtensionMethodsProject\ExtensionMethodsProject.csproj", "{366219A4-1BA3-447D-BC46-89778B94F52C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treehouse.Common", "Treehouse.Common\Treehouse.Common.csproj", "{EAE8F720-9F96-4CB8-BB3F-BD7052B56125}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{366219A4-1BA3-447D-BC46-89778B94F52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{366219A4-1BA3-447D-BC46-89778B94F52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{366219A4-1BA3-447D-BC46-89778B94F52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE8F720-9F96-4CB8-BB3F-BD7052B56125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE8F720-9F96-4CB8-BB3F-BD7052B56125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE8F720-9F96-4CB8-BB3F-BD7052B56125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE8F720-9F96-4CB8-BB3F-BD7052B56125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
