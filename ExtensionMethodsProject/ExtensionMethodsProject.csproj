@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Treehouse.Common\Treehouse.Common.csproj">
+      <Project>{eae8f720-9f96-4cb8-bb3f-bd7052b56125}</Project>
+      <Name>Treehouse.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

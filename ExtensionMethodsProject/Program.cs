@@ -1,14 +1,12 @@
 using System;
+using System.Collections.Generic;
 using Treehouse.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Treehouse.ExtensionMethodsProject
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             var synonymnsForBest = new List<string>
             {
