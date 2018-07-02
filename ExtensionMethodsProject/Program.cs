@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Treehouse.Collections.Generic;
+using Treehouse.Common;
 
 namespace Treehouse.ExtensionMethodsProject
 {
@@ -8,6 +9,9 @@ namespace Treehouse.ExtensionMethodsProject
     {
         private static void Main()
         {
+            string myString = null;
+            myString.IsNullOrEmpty();
+
             var synonymnsForBest = new List<string>
             {
                 "best",
