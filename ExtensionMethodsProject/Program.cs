@@ -9,9 +9,6 @@ namespace Treehouse.ExtensionMethodsProject
     {
         private static void Main()
         {
-            string myString = null;
-            myString.IsNullOrEmpty();
-
             var synonymnsForBest = new List<string>
             {
                 "best",
@@ -30,7 +27,10 @@ namespace Treehouse.ExtensionMethodsProject
                 "incomparable",
                 "ideal"
             };
-            Console.WriteLine($"My kitty Little Kitty was the {synonymnsForBest.RandomItem()} cat.");
+
+            var best = synonymnsForBest.FirstOr(s => s.Length.IsEven(), synonymnsForBest.RandomItem);
+
+            Console.WriteLine($"My kitty Little Kitty was the {best} cat.");
             Console.ReadLine();
         }
     }
